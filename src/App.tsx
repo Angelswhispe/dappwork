@@ -327,7 +327,7 @@ export default function Home() {
               Teezdeeznutz
             </h1>
 
-            <div className="relative top-[32.2pc] md:top-[22pc] lg:top-0">
+            <div className="relative top-[29.2pc] md:top-[22pc] lg:top-0">
             <p className="text-red-600 text-[9px] lg:text-[10px] 2xl:text-xl">Powered By TDZ</p>
               <div className="space-x-4 xl:space-x-7 mt-5 mb-2">
                 <a href="https://example.com" className="text-white">
