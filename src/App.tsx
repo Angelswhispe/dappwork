@@ -312,45 +312,45 @@ export default function Home() {
   return (
     // <div className="w-screen min-h-screen md:overflow-hidden">
     <div className="overflow-hidden">
-      <div className="w-16 h-36 xl:w-28 xl:top-8 xl:h-48 relative top-8 xl:left-36 left-5 lg:top-14 lg:left-16">
+      <div className="w-16 h-36 2xl:w-28 2xl:top-8 2xl:h-48 relative top-8 2xl:left-36 left-5 lg:top-14 lg:left-16">
         <img className="rounded-full" src={Peq} alt="image loading pls wait" />
       </div>
       <ConnectWallet
-        className="!absolute lg:!right-14 xl:!right-28 !right-3 !top-10"
+        className="!absolute lg:!right-14 2xl:!right-28 !right-3 !top-10"
         theme={theme}
       />
 
-      <div className="gif lg:w-[90%] mt-3 w-[96%] left-2 xl:h-[86pc] lg:h-[47pc] lg:flex relative lg:left-[5%] lg:mt-0 rounded-md">
+      <div className="gif lg:w-[90%] mt-3 w-[96%] left-2 2xl:h-[86pc] lg:h-[47pc] lg:flex relative lg:left-[5%] lg:mt-0 rounded-md">
         <div className="lg:left-[7%] left-8 top-16 relative">
           <div className="lg:w-[55%] md:w-[86%] w-80 lg:text-base text-md">
-            <h1 className="text-red-200 xl:text-6xl lg:ml-0 -ml-3 text-3xl relative lg:top-0 -top-8">
+            <h1 className="text-red-700 2xl:text-6xl lg:ml-0 lg:text-4xl -ml-3 text-3xl relative lg:top-0 -top-8">
               Teezdeeznutz
             </h1>
 
             <div className="relative top-[32.2pc] md:top-[22pc] lg:top-0">
-            <p className="text-red-600 text-[9px] lg:text-base xl:text-xl">Powered By TDZ</p>
+            <p className="text-red-600 text-[9px] lg:text-[10px] 2xl:text-xl">Powered By TDZ</p>
               <div className="space-x-4 xl:space-x-7 mt-5 mb-2">
                 <a href="https://example.com" className="text-white">
                   <FontAwesomeIcon
-                    className="lg:text-2xl text-2xl xl:text-4xl"
+                    className="lg:text-2xl text-2xl 2xl:text-4xl"
                     icon={faGlobe}
                   />
                 </a>
                 <a href="https://x.com" className="text-white">
                   <FontAwesomeIcon
-                    className="lg:text-2xl text-2xl xl:text-4xl"
+                    className="lg:text-2xl text-2xl 2xl:text-4xl"
                     icon={faTwitter}
                   />
                 </a>
                 <a href="https://discord.com" className="text-white">
                   <FontAwesomeIcon
-                    className="lg:text-2xl text-2xl xl:text-4xl"
+                    className="lg:text-2xl text-2xl 2xl:text-4xl"
                     icon={faDiscord}
                   />
                 </a>
               </div>
 
-              <p className="text-white xl:text-3xl">
+              <p className="text-white 2xl:text-3xl">
                 Welcome to Teezdeeznutz! SP is a limited supply NFT collection
                 on the Sei blockchain, transcends traditional digital ownership.
                 With 3000 distinct NFTs featuring charming penguin-themed
@@ -366,7 +366,7 @@ export default function Home() {
         </div>
 
         <div className="grid lg:h-screen bottom-[33pc] md:bottom-[13pc]  lg:bottom-0 lg:pt-32 w-[128%] right-20 lg:w-96 relative lg:right-[20%]">
-          <div className="items-center justify-center hidden md:w-[140%] md:h-96 xl:w-[250%] xl:h-[100%] xl:top-28 lg:w-[162%] lg:h-72 lg:mb-1.5 h-full lg:col-span-5 lg:flex lg:px-12">
+          <div className="items-center justify-center hidden md:w-[140%] md:h-96 2xl:w-[250%] 2xl:h-[100%] 2xl:top-28 lg:ml-14 lg:w-[118%] lg:h-72 lg:mb-1.5 h-full lg:col-span-5 lg:flex lg:px-12">
             <HeadingImage
               src={Peq}
               isLoading={isLoading}
@@ -374,7 +374,7 @@ export default function Home() {
           </div>
 
           <div className="flex items-center justify-center lg:w-[103%] lg:mt-9 ml-12 h-full col-span-1 lg:col-span-7">
-            <div className="flex flex-col w-full max-w-xl gap-4 xl:w-[100%] xl:h-[200%]  p-12 rounded-xl ">
+            <div className="flex flex-col w-full max-w-xl gap-4 2xl:w-[100%] 2xl:h-[200%]  p-12 rounded-xl ">
               <div className="flex w-full mt-8 xs:mb-8 xs:mt-0 md:w-[36%] md:h-[40%] lg:hidden">
                 <HeadingImage
                   src={Peq}
@@ -448,13 +448,13 @@ export default function Home() {
                     Drop is starting soon. Please check back later.
                   </span>
                 ) : (
-                  <div className="flex flex-col w-full gap-4">
+                  <div className="flex flex-col w-full gap-4 lg:ml-3">
                     <div className="flex flex-col w-full gap-4 lg:flex-row lg:items-center lg:gap-4 ">
                         <div className="flex">
                         <div >
-                          <h3 className="text-blue-400 flex w-48 mt-2">Price: &nbsp; <span className="text-white"> 0 SEI</span></h3>
+                          <h3 className="text-blue-400 flex lg:w-36 w-48 mt-2">Price: &nbsp; <span className="text-white"> 0 SEI</span></h3>
                         </div>
-                      <div className="flex w-full px-2 border border-gray-400 rounded-md h-11 dark:border-gray-800 lg:w-full">
+                      <div className="flex w-full px-2 border lg:space-x-3 border-gray-400 rounded-md h-11 dark:border-gray-800 lg:w-full">
                         <button
                           onClick={() => {
                             const value = quantity - 1;
