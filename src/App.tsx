@@ -324,11 +324,11 @@ export default function Home() {
         <div className="lg:left-[7%] left-8 top-16 relative">
           <div className="lg:w-[55%] md:w-[86%] w-80 lg:text-base text-md">
             <h1 className="text-red-700 2xl:text-6xl lg:ml-0 lg:text-4xl -ml-3 text-3xl relative lg:top-0 -top-8">
-              Teezdeeznutz
+              Base Minting Dapp
             </h1>
 
             <div className="relative top-[31.2pc] md:top-[22pc] lg:top-0">
-            <p className="text-red-600 text-[9px] lg:text-[10px] 2xl:text-xl">Powered By TDZ</p>
+            {/* <p className="text-red-600 text-[9px] lg:text-[10px] 2xl:text-xl">Powered By Webberland</p> */}
               <div className="space-x-4 xl:space-x-7 mt-5 mb-2">
                 <a href="https://example.com" className="text-white">
                   <FontAwesomeIcon
@@ -351,15 +351,7 @@ export default function Home() {
               </div>
 
               <p className="text-white 2xl:text-3xl">
-                Welcome to Teezdeeznutz! SP is a limited supply NFT collection
-                on the Sei blockchain, transcends traditional digital ownership.
-                With 3000 distinct NFTs featuring charming penguin-themed
-                assets, Teezdeeznutz merges creativity and scarcity and where
-                innovation meets community prosperity. SP invites you to join
-                the revolution on the Sei blockchain. With 3000 unique NFTs and
-                a commitment to an engaging community experience, Teezdeeznutz
-                represents more than just digital art; it's a dynamic ecosystem
-                of shared success.
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora enim reiciendis qui magnam autem veritatis, reprehenderit aliquid dolor earum consectetur sunt repudiandae laboriosam commodi quam harum saepe accusamus numquam magni? Est itaque doloribus delectus deserunt illum quos ratione, aspernatur temporibus sequi, reiciendis dolorum amet porro praesentium natus, architecto harum maxime eum velit iure quod veniam a excepturi? Ab laborum, magni esse ad et, sunt sed quae maxime provident quisquam molestiae. Commodi aliquam quas eum ullam sint reiciendis esse, quaerat itaque iusto? Doloribus deleniti corporis provident doloremque, fuga temporibus dicta nostrum, ab nesciunt, incidunt repellendus labore repellat nam in quis. Labore.
               </p>
             </div>
           </div>
@@ -452,7 +444,7 @@ export default function Home() {
                     <div className="flex flex-col w-full gap-4 lg:flex-row lg:items-center lg:gap-4 ">
                         <div className="flex">
                         <div >
-                          <h3 className="text-blue-400 flex lg:w-36 w-48 mt-2">Price: &nbsp; <span className="text-white"> 0 SEI</span></h3>
+                          <h3 className="text-blue-400 flex lg:w-36 w-48 mt-2">Price: &nbsp; <span className="text-white"> 0 ETH</span></h3>
                         </div>
                       <div className="flex w-full px-2 border lg:space-x-3 border-gray-400 rounded-md h-11 dark:border-gray-800 lg:w-full">
                         <button

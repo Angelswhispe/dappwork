@@ -1,3 +1,7 @@
+// import { Sepolia } from '@thirdweb-dev/chains';
+
+import { Ethereum } from "@thirdweb-dev/chains";
+
 /** Change these values to configure the application for your own use. **/
 
 // Your smart contract address (available on the thirdweb dashboard)
@@ -6,7 +10,8 @@ export const contractConst = "0x4A54541A7A85e07d4dBE5bD718A0eaaB62a36c19";
 
 // The name of the chain your contract is deployed to.
 // Refer to README.md on how to specify the chain name.
-export const chainConst = "ethereum";
+// export const chainConst = "ethereum";
+export const chainConst = Ethereum;
 
 // It is IMPORTANT to provide your own API key to use the thirdweb SDK and infrastructure.
 // Please ensure that you define the correct domain for your API key from the API settings page.
