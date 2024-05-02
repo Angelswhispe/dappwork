@@ -351,7 +351,7 @@ export default function Home() {
               </div>
 
               <p className="text-white 2xl:text-3xl">
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora enim reiciendis qui magnam autem veritatis, reprehenderit aliquid dolor earum consectetur sunt repudiandae laboriosam commodi quam harum saepe accusamus numquam magni? Est itaque doloribus delectus deserunt illum quos ratione, aspernatur temporibus sequi, reiciendis dolorum amet porro praesentium natus, architecto harum maxime eum velit iure quod veniam a excepturi? Ab laborum, magni esse ad et, sunt sed quae maxime provident quisquam molestiae. Commodi aliquam quas eum ullam sint reiciendis esse, quaerat itaque iusto? Doloribus deleniti corporis provident doloremque, fuga temporibus dicta nostrum, ab nesciunt, incidunt repellendus labore repellat nam in quis. Labore.
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit.  Est itaque doloribus delectus deserunt illum quos ratione, aspernatur temporibus sequi, reiciendis dolorum amet porro praesentium natus, architecto harum maxime eum velit iure quod veniam a excepturi? Ab laborum, magni esse ad et, sunt sed quae maxime provident quisquam molestiae. Commodi aliquam quas eum ullam sint reiciendis esse, quaerat itaque iusto? Doloribus deleniti corporis provident doloremque, fuga temporibus dicta nostrum, ab nesciunt, incidunt repellendus labore repellat nam in quis. Labore.
               </p>
             </div>
           </div>
