@@ -1,5 +1,5 @@
 p, h1, h3, span {
-    font-family: "Lemon", serif;
+    font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ p, h1, h3, span {
     pointer-events: none; */
 }
 body {
-        background: linear-gradient(34deg, #0063FF);
+        background: linear-gradient(34deg, rgb(14, 8, 7) 35%, rgb(28, 32, 33) 97%, rgb(1, 5, 14) 98%);
         min-height: 100vh;
         height: 100%;
 }

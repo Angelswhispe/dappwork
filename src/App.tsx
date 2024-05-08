@@ -27,7 +27,8 @@ import {
 } from "./consts/parameters";
 
 
-import Peq from './peq.png';
+import Logo from '../img/logo.png';
+import Peq from '../img/liad.png';
 
 import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -311,9 +312,9 @@ export default function Home() {
 
   return (
     // <div className="w-screen min-h-screen md:overflow-hidden">
-    <div className="overflow-hidden">
+    <div className="overflow-hidden ">
       <div className="w-16 h-36 2xl:w-28 2xl:top-8 2xl:h-48 relative top-8 2xl:left-36 left-5 lg:top-14 lg:left-16">
-        <img className="rounded-full" src={Peq} alt="image loading pls wait" />
+        <img className="rounded-full" src={Logo} alt="image loading pls wait" />
       </div>
       <ConnectWallet
         className="!absolute lg:!right-14 2xl:!right-28 !right-3 !top-10"
@@ -323,11 +324,11 @@ export default function Home() {
       <div className="gif lg:w-[90%] mt-3 w-[96%] left-2 2xl:h-[86pc] lg:h-[47pc] lg:flex relative lg:left-[5%] lg:mt-0 rounded-md">
         <div className="lg:left-[7%] left-8 top-16 relative">
           <div className="lg:w-[55%] md:w-[86%] w-80 lg:text-base text-md">
-            <h1 className="text-red-700 2xl:text-6xl lg:ml-0 lg:text-4xl -ml-3 text-3xl relative lg:top-0 -top-8">
+            {/* <h1 className="text-red-700 2xl:text-6xl lg:ml-0 lg:text-4xl -ml-3 text-3xl relative lg:top-0 -top-12">
               Base Crocs
-            </h1>
+            </h1> */}
 
-            <div className="relative top-[31.2pc] md:top-[22pc] lg:top-0">
+            <div className="relative top-[34pc] md:top-[22pc] lg:top-0">
             {/* <p className="text-red-600 text-[9px] lg:text-[10px] 2xl:text-xl">Powered By Webberland</p> */}
               <div className="space-x-4 xl:space-x-7 mt-5 mb-2">
                 <a href="https://example.com" className="text-white">
@@ -336,13 +337,13 @@ export default function Home() {
                     icon={faGlobe}
                   />
                 </a>
-                <a href="https://x.com" className="text-white">
+                <a href="https://x.com/LocoNeko1?t=P4O0u5KIlEitPhyzXvmn9A&s=09" className="text-white">
                   <FontAwesomeIcon
                     className="lg:text-2xl text-2xl 2xl:text-4xl"
                     icon={faTwitter}
                   />
                 </a>
-                <a href="https://discord.com" className="text-white">
+                <a href="https://discord.gg/aperunnersbtc" className="text-white">
                   <FontAwesomeIcon
                     className="lg:text-2xl text-2xl 2xl:text-4xl"
                     icon={faDiscord}
@@ -351,7 +352,7 @@ export default function Home() {
               </div>
 
               <p className="text-white 2xl:text-3xl">
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit.  Est itaque doloribus delectus deserunt illum quos ratione, aspernatur temporibus sequi, reiciendis dolorum amet porro praesentium natus, architecto harum maxime eum velit iure quod veniam a excepturi? Ab laborum, magni esse ad et, sunt sed quae maxime provident quisquam molestiae. Commodi aliquam quas eum ullam sint reiciendis esse, quaerat itaque iusto? Doloribus deleniti corporis provident doloremque, fuga temporibus dicta nostrum, ab nesciunt, incidunt repellendus labore repellat nam in quis. Labore.
+              Base Crocs, while not as prevalent or impactful as traditional gentlemen's clubs of yore, upholds similar principles. Membership remains selective, requiring nomination by proposers who have known the candidate for a considerable period, ensuring the club's exclusivity and standards endure.
               </p>
             </div>
           </div>
